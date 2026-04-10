@@ -10,6 +10,10 @@ This is a document of the team "Los grises jr."
 - **Renato Medina** – Programmer
 
 ## Robot Description
-The robot uses an Ackermann steering system with a dedicated steering mechanism, allowing smooth and precise turns. This improves stability and control while navigating the field.
+The robot is designed using an Ackermann steering system, which allows smooth and precise turns. This improves stability and control while navigating the field.
 
-The design is optimized for efficient navigation and quick response during the competition.
+It uses a front steering mechanism powered by a dedicated motor, enabling accurate directional control similar to real vehicles.
+
+The robot is equipped with a vision system (HuskyLens), which detects and identifies colored objects such as red and green pillars. This allows the robot to make autonomous decisions during the challenge.
+
+The structure is compact and optimized to maintain balance while moving at different speeds. The placement of sensors and components ensures efficient detection and reliable performance.
