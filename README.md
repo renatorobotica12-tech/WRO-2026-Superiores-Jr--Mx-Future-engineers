@@ -6,12 +6,12 @@
 
 ###
 This is a document of the team "Los grises jr."
-### **Team Members**
-## **Mateo Vásquez** 
+## **Team Members**
+# **Mateo Vásquez** 
 Role: Electronics Specialist of the team 
-## **Ruth García**
+# **Ruth García**
  Role: Builder of the team  
- ## **Renato Medina** 
+ # **Renato Medina** 
  Role: Programmer of the team
 
 ## Robot Description
