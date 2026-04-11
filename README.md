@@ -37,13 +37,6 @@ The structure is compact and optimized to maintain balance at different speeds. 
 
 ## 🧩 Components
 
-- LEGO Mindstorms EV3 Brick  
-- 2 Large Motors (drive system)  
-- 1 Medium Motor (steering system)  
-- HuskyLens Vision Sensor  
-- LEGO Technic structural components  
-- Wheels with traction optimization  
-- Custom wiring and connections  
 
 ---
 
@@ -54,6 +47,3 @@ The robot uses vision-based detection to identify red and green pillars and dete
 Based on the detected color, the robot dynamically adjusts its trajectory using the steering system, ensuring precise alignment and smooth navigation around obstacles.
 
 The combination of computer vision and Ackermann steering allows efficient and stable autonomous performance during the competition.
-
-
-¿Le metemos ese siguiente nivel? 🚀
