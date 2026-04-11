@@ -36,7 +36,7 @@ The structure is compact and optimized to maintain balance at different speeds. 
 ---
 
 ## 🧩 Components
-
+#LEGO MINDSTORMS EV3 BRICK
 
 ---
 
