@@ -1,26 +1,59 @@
-### Oficial Repository of Team "Los Grises Jr" for the Future Engineers- World Robotic Olympiad 2026.
+## This repository contains the official documentation of Team "Los Grises Jr" for the Future Engineers category at the World Robot Olympiad 2026.
+
+Our project focuses on developing an autonomous vehicle capable of navigating dynamic environments using computer vision and precise steering control.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/6422e0d6-8cc2-4bbc-beaf-4bbada98c140"  width="1000" />
+  <img src="https://github.com/user-attachments/assets/6422e0d6-8cc2-4bbc-beaf-4bbada98c140" width="1000" />
 </p>
 
-###
-This is a document of the team "Los grises jr."
-## **Team Members**
-# **Mateo Vásquez** 
-Role: Electronics Specialist of the team 
-# **Ruth García**
- Role: Builder of the team  
- # **Renato Medina** 
- Role: Programmer of the team
+---
 
-## Robot Description
-The robot is designed using an Ackermann steering system, which allows smooth and precise turns. This improves stability and control while navigating the field.
+## 👥 Team Members
+
+### **Mateo Vásquez**  
+**Role:** Electronics Specialist  
+
+### **Ruth García**  
+**Role:** Builder  
+
+### **Renato Medina**  
+**Role:** Programmer  
+
+---
+
+## 🤖 Robot Description
+
+The robot is designed using an **Ackermann steering system**, which allows smooth and precise turns. This improves stability and control while navigating the field.
+
+The Ackermann geometry ensures that each wheel follows an appropriate turning radius, reducing friction and increasing efficiency during curves.
 
 It uses a front steering mechanism powered by a dedicated motor, enabling accurate directional control similar to real vehicles.
 
-The robot is equipped with a vision system (HuskyLens), which detects and identifies colored objects such as red and green pillars. This allows the robot to make autonomous decisions during the challenge.
+The robot is equipped with a **HuskyLens vision system**, capable of detecting and identifying colored objects such as red and green pillars. This allows the robot to make autonomous decisions in real time.
 
-The structure is compact and optimized to maintain balance while moving at different speeds. The placement of sensors and components ensures efficient detection and reliable performance.
+The structure is compact and optimized to maintain balance at different speeds. The placement of sensors and components ensures efficient detection and reliable performance.
 
-### **Components**
+---
+
+## 🧩 Components
+
+- LEGO Mindstorms EV3 Brick  
+- 2 Large Motors (drive system)  
+- 1 Medium Motor (steering system)  
+- HuskyLens Vision Sensor  
+- LEGO Technic structural components  
+- Wheels with traction optimization  
+- Custom wiring and connections  
+
+---
+
+## 🧠 Strategy
+
+The robot uses vision-based detection to identify red and green pillars and determine its path.
+
+Based on the detected color, the robot dynamically adjusts its trajectory using the steering system, ensuring precise alignment and smooth navigation around obstacles.
+
+The combination of computer vision and Ackermann steering allows efficient and stable autonomous performance during the competition.
+
+
+¿Le metemos ese siguiente nivel? 🚀
