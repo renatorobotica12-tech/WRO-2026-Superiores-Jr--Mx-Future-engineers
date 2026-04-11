@@ -171,12 +171,19 @@ Achieving stable Ackermann steering control
 Managing noise and variability in vision detection
 Tuning PID parameters for different speeds
 ** Development Status**
+
 ** Mechanical design completed**
+
 ** Programming optimization in progress**
+
 **Future Improvements**
+
 **Finalize PID tuning**
+
 **Improve detection robustness**
+
 **Optimize speed vs stability balance**
+
 ---
 ### Conclusion
 ---
