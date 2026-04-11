@@ -11,7 +11,7 @@
 ### **Mateo Vásquez**  
 **Role:** Electronics Specialist
 
-**Age:**14
+**Age:** 14
 ---
 ### **Ruth García**  
 **Role:** Builder
