@@ -48,9 +48,11 @@ The structure is compact and optimized to maintain balance at different speeds. 
 
 | Front | Back |
 |:--:|:--:|
-|<img src="https://github.com/user-attachments/assets/53b4ca99-4e5a-456e-924d-34a455bd89c3" width="300"/> | <img src="https://github.com/user-attachments/assets/53b4ca99-4e5a-456e-924d-34a455bd89c3" width="300"/> |
-| Front | Back |
-|<img src="https://github.com/user-attachments/assets/adfcbc35-594a-4e53-b164-27f303c28fb5" width="300"/> |<img src= "https://github.com/user-attachments/assets/6640145f-<0229-4c4e-826e-9e4f0175ce0c" width="300" /> |
+|<img src= "https://github.com/user-attachments/assets/6dc00e73-723c-4a87-8fed-caf3bb0b516d" width="300"/> | <img src="https://github.com/user-attachments/assets/db47e1fc-15cf-4bf6-9bda-90c15ac27a30" width="300"/> |
+| Bottom | Left |
+| <img src="https://github.com/user-attachments/assets/adfcbc35-594a-4e53-b164-27f303c28fb5" width="300"/> | <img src= "https://github.com/user-attachments/assets/e4b8b09b-9287-48da-9303-3b7f5d03bd47" width= 300 /> |
+| Right | Top |
+|<img src= "https://github.com/user-attachments/assets/afbd04f9-7306-40f3-8b8c-13dbfa76661c" width= 300 /> | <img src= "https://github.com/user-attachments/assets/d506e87b-5d23-4b30-8219-bd6e11727323"  width= 300 /> |
 ---
 ##  Components and Hardware
 | Component | Description | Image |
