@@ -35,8 +35,10 @@ The structure is compact and optimized to maintain balance at different speeds. 
 
 ---
 
-## 🧩 Components
-**LEGO MINDSTORMS EV3 BRICK** ------                                  <img src="https://github.com/user-attachments/assets/00e22160-6a52-454b-b501-86788260b24e"                                                                                      width="100" /> </p>
+## 🧩 Components and Hardware
+| Component | Description | Image |
+|-----------|-------------|-------|
+| **45544 LEGO MINDSTORMS Education EV3 Core Set** |  Forms the foundational structure and chassis. | |                                                                              
 
 ---
 
