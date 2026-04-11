@@ -39,6 +39,11 @@ The robot is equipped with a **HuskyLens vision system**, capable of detecting a
 The structure is compact and optimized to maintain balance at different speeds. The placement of sensors and components ensures efficient detection and reliable performance.
 
 ---
+## Vehicle Photo
+<div align="center">
+
+| Front | Back |
+|:--:|:--:|
 
 ## 🧩 Components and Hardware
 | Component | Description | Image |
