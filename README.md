@@ -12,12 +12,14 @@ Our project focuses on developing an autonomous vehicle capable of navigating dy
 
 ### **Mateo Vásquez**  
 **Role:** Electronics Specialist  
-
+**Age:**14
 ### **Ruth García**  
-**Role:** Builder  
+**Role:** Builder
+**Age:** 15
 
 ### **Renato Medina**  
-**Role:** Programmer  
+**Role:** Programmer
+**Age:** 14
 
 ---
 
