@@ -38,7 +38,7 @@ The structure is compact and optimized to maintain balance at different speeds. 
 ## 🧩 Components and Hardware
 | Component | Description | Image |
 |-----------|-------------|-------|
-| **45544 LEGO MINDSTORMS Education EV3 Core Set** |  Forms the foundational structure and chassis. | |                                                                              
+| **45544 LEGO MINDSTORMS Education EV3 Core Set** |  Forms the foundational structure and chassis. | | <img width="347" height="349" alt="Image" src="https://github.com/user-attachments/assets/b2675c72-95c1-4431-a8be-2094a5c9dcde" /> |                                                                        
 
 ---
 
