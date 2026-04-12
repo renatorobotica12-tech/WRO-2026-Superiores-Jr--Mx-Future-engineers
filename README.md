@@ -110,7 +110,7 @@ Process:
 - Detect object color
 - Obtain object horizontal position
 - Compute positional error
-  The error is calculated based on the difference between the object position and the center of the image.
+  The error is calculated based on the difference between the object position and the center of the image.  
 
 - Apply control correction
 - Adjust steering angle
@@ -128,17 +128,18 @@ If no object is detected, the robot temporarily maintains the last steering valu
 
 To achieve stable and precise steering, a PID controller is being implemented.
 
-Control Objective:
+**Control Objective:**
+
+- Minimize the horizontal deviation between the detected object and the center of the image.
+
 error= xcenter - xobject
  -The error represents the horizontal distance between the detected object and the center of the image.
-
-Minimize the horizontal deviation between the detected object and the center of the image.
-
+ 
 | Parameters | Value |
 | :--------: | :---: |
-| KP | 2 |
-| KI | 0 |
-| KD | 0.5 |
+| KP         | 2.0   |
+| KI         | 0.0   |
+| KD         | 0.5   |
 
 PID Components:
 
