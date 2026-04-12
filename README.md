@@ -215,9 +215,6 @@ flowchart LR
     B -->|Processed Data| C[EV3 Controller]
     C -->|Steering Control| D[Steering Motor]
     C -->|Speed Control| E[Drive Motor]
-
-```md
-
+```
 ---
-
                       
