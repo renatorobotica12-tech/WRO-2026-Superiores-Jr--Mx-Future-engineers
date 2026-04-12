@@ -25,28 +25,35 @@
 ---
 ##  Project Overview
 ---
-This repository contains the official documentation of Team “Los Grises Jr” for the Future Engineers category at the World Robot Olympiad 2026.
+This project presents the development of an autonomous vehicle designed for the Future Engineers category of the World Robot Olympiad 2026.
 
-Our project focuses on the development of an autonomous vehicle capable of navigating dynamic environments using computer vision and an advanced steering control system.
+The robot is capable of navigating a dynamic environment using a combination of computer vision and closed-loop control systems.
 
-The design combines mechanical precision, real-time vision processing, and feedback control algorithms to achieve stable and accurate navigation.
+The system integrates:
+
+Real-time vision processing
+Ackermann steering geometry
+PID-based control
+
+This combination enables stable, precise, and adaptive navigation.
 
 
-##  Robot Description
+##  **Robot Description**
 
 The robot is built using an Ackermann steering system, similar to real-world vehicles.
 
+The vehicle is based on an Ackermann steering system, similar to real-world cars.
+
 🔧 Why Ackermann Steering?
 
-The Ackermann geometry was selected instead of a differential drive system because:
+Compared to differential drive systems, Ackermann steering provides:
 
-It reduces lateral wheel slip
-Improves trajectory accuracy in curves
-Provides more realistic and stable motion
+Reduced lateral wheel slip
+Improved curve accuracy
+More realistic motion behavior
+Greater stability at higher speeds
 
-This is especially important in environments with tight turns and obstacles.
-
-A dedicated motor controls the steering mechanism, allowing precise angle adjustments.
+A dedicated motor controls the steering angle, allowing fine adjustments during navigation.
 ---
 ## Vehicle Photo
 
@@ -81,36 +88,36 @@ The combination of computer vision and Ackermann steering allows efficient and s
 The robot uses a HuskyLens AI camera connected to an Arduino Nano.
 
 Capabilities:
-Detects red and green pillars
-Tracks object position in real time
-Sends processed data to the control system
+Detection of red and green pillars
+Real-time object tracking
+Position data extraction
 Design Considerations:
-Elevated placement improves field of view
-Enables early detection
-Reduces reaction delay
+Elevated camera placement increases field of view
+Early detection improves reaction time
+Reduces sudden corrections
 ---
 ## **Control System Architecture**
 
-The system is divided into two main subsystems:
-
 1. Vision Processing (Arduino Nano)
 Receives data from HuskyLens
-Processes object position and color
-Sends relevant data to EV3
+Extracts object position and color
+Sends processed data to EV3
 2. Motion Control (EV3)
 Receives processed data
 Controls:
 Steering motor
 Drive motor
 ---
-## System Architecture
-HuskyLens → Arduino Nano → EV3 → Motors
+| **Data Flow** |
+|---------------|
+|HuskyLens → Arduino Nano → EV3 → Motors|
+
 
 A custom PCB was developed to:
 
-Improve connection stability
-Reduce wiring complexity
-Increase reliability during runs
+-Improve connection stability
+-Reduce wiring complexity
+-Increase reliability during runs
 ---
 ## Navigation Strategy
 
@@ -133,57 +140,62 @@ The robot continues using the last known steering value temporarily
 To achieve stable and precise steering, a PID controller is used.
 ---
 ## Control Objective
+The robot follows a vision-based navigation algorithm:
 
-Minimize the deviation between the detected object and the center of the robot’s trajectory.
+Algorithm:
+-Capture frame from HuskyLens
+-Detect object color (red/green)
+-Get horizontal position of the object
+-Compute error
+-Apply PID correction
+-Adjust steering angle
+-Move forward
+-Behavior Logic:
+-Object centered → move forward
+-Object left → steer left
+-Object right → steer right
 
-## Implementation
+If no object is detected:
 
-Error is calculated as:
-
-error = x_object - x_center
-
-PID output is mapped to the steering motor angle
-Runs continuously for real-time correction
+The robot temporarily maintains the last steering value
 ---
- ##Tuning Process
+ ## **Tuning Process**
 ---
-The PID controller was tuned experimentally:
+To achieve smooth and stable steering, a PID controller is implemented.
 
-Kp adjusted for responsiveness
-Kd added to reduce oscillations
-Ki introduced to eliminate steady-state error
-Observations:
-High Kp caused oscillations
-Adding Kd improved stability
-Ki reduced persistent alignment error
+**Control Objective:**
+
+Minimize the horizontal deviation between the detected object and the center of the image.
+
+Where:
+
+Kp → Proportional gain (responsiveness)
+Ki → Integral gain (eliminates steady-state error)
+Kd → Derivative gain (reduces oscillations)
 ---
 
 ## Performance 
 
-Improved stability compared to proportional-only control
-Reduced oscillations during turns
-Faster response to object position changes
+The system achieved:
 
+Improved trajectory stability
+Reduced oscillations in curves
+Faster response to object position changes
+Reliable navigation in dynamic environments
+## **Custom PCB:**
+
+A custom PCB was developed to:
+
+Improve connection stability
+Reduce wiring complexity
+Increase reliability during competition
+---
 ## **Challenges**
 ---
 Integrating EV3 and Arduino systems
 Achieving stable Ackermann steering control
 Managing noise and variability in vision detection
 Tuning PID parameters for different speeds
-** Development Status**
-
-** Mechanical design completed**
-
-** Programming optimization in progress**
-
-**Future Improvements**
-
-**Finalize PID tuning**
-
-**Improve detection robustness**
-
-**Optimize speed vs stability balance**
-
 ---
 ### Conclusion
 ---
@@ -193,4 +205,4 @@ Realistic Ackermann steering
 Intelligent vision processing
 Advanced PID control
 
-This combination allows the robot to achieve stable, precise, and adaptive navigation, making it a strong candidate for high-level performance in the WRO Future Engineers competition.
+This combination allows the robot to achieve stable, precise, and adaptive navigation, making the team was ready for every obstacle.
