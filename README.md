@@ -128,7 +128,7 @@ Process:
 - Adjust steering angle
 - Move forward
 
-## Behavior Logic:
+### Behavior Logic:
 
 - Object centered → move forward
 - Object left → steer left
@@ -159,12 +159,6 @@ The integral component was intentionally set to zero to prevent instability caus
 | KI         | 0.0   |
 | KD         | 0.5   |
 
-### PID Components:
-
-Kp (Proportional): Reacts to current error
-Ki (Integral): Reduces accumulated error over time
-Kd (Derivative): Dampens oscillations
-
 
 The controller is currently being tuned to achieve a balance between responsiveness and stability.
 ---
@@ -185,9 +179,11 @@ Design Considerations:
 - Reduces sudden steering corrections
 
  The system operates in a closed-loop configuration, where visual feedback is continuously used to correct the robot's trajectory in real time.
+
+ This closed-loop approach allows continuous correction of the robot’s trajectory, improving robustness against disturbances and dynamic changes in the environment.
 ---
 
----
+
 ## Navigation Strategy
 
 The robot uses vision-based navigation to interact with obstacles dynamically.
@@ -198,6 +194,7 @@ The robot uses vision-based navigation to interact with obstacles dynamically.
 
 This approach allows smooth and adaptive movement around obstacles.
 ## Navigation Algorithm
+The navigation process is implemented as a continuous loop, as shown below:
 
 ```mermaid
 flowchart TD
@@ -222,7 +219,7 @@ flowchart TD
 Initial testing shows:
 
 - The robot maintains a stable trajectory with an average deviation of approximately ±8 pixels from the target center. 
-- Reduced oscillations compared to initial tests  
+- Reduced oscillations compared to initial non-PID control tests
 - Reliable response to changes in object position  
 
 Further testing and quantitative evaluation are currently in progress.
@@ -238,9 +235,9 @@ Preliminary testing was conducted under controlled lighting conditions.
 | Maximum error | 20 px |
 | Response time | ~120 ms |
 | Processing rate | ~30 FPS |
----
 
 These results indicate stable tracking performance and consistent response to changes in object position.
+---
 
 ## Challenges
 
@@ -264,7 +261,9 @@ The Los Grises Jr robot integrates:
 - Intelligent vision processing
 - PID-based control
 
+The system demonstrates the effective integration of perception and control, implementing a real-time closed-loop navigation strategy.
 This combination enables stable and adaptive navigation, preparing the team for dynamic competition environments.
+
 
 ## System Diagram
 
