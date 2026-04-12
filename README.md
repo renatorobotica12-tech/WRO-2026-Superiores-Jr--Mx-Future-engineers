@@ -177,6 +177,25 @@ The robot uses vision-based navigation to interact with obstacles dynamically.
 - Adjusts trajectory using steering control  
 
 This approach allows smooth and adaptive movement around obstacles.
+## Navigation Algorithm
+
+```mermaid
+flowchart TD
+    A[Start] --> B[Capture Frame]
+    B --> C[Detect Object]
+    C --> D{Object Detected?}
+    
+    D -- Yes --> E[Get Object Position]
+    E --> F[Calculate Error]
+    F --> G[Apply PID Correction]
+    G --> H[Adjust Steering]
+    H --> I[Move Forward]
+    
+    D -- No --> J[Maintain Last Steering]
+    J --> I
+    
+    I --> B
+```
 ---
 ## Performance 
 
@@ -217,4 +236,6 @@ flowchart LR
     C -->|Speed Control| E[Drive Motor]
 ```
 ---
+
+
                       
