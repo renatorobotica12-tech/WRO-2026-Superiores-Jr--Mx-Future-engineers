@@ -27,7 +27,7 @@ have a big prize.**
 
 **Role:** Programmer
 
-I started two years ago in my elementary school, at OnStage TMR, and from there I became interested in robotics, in this competition, I want to become a better and more well-rounded programmer.
+**I started two years ago in my eleme<ntary school, at OnStage TMR, and from there I became interested in robotics, in this competition, I want to become a better and more well-rounded programmer.**
 
 **Age:** 14
 ---
