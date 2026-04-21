@@ -1,4 +1,3 @@
-## system scheme
 ```mermaid
 flowchart LR
     A[HuskyLens Camera] -->|Vision Data| B[Arduino Nano]
@@ -7,5 +6,3 @@ flowchart LR
     C -->|Speed Control| E[Drive Motor]
 ```
 ---
-
-##
