@@ -11,7 +11,7 @@
 ### **Mateo Briones**  
 ---
 
-<img width="900" height="1000" alt="Image" src="https://github.com/user-attachments/assets/7d893a62-c48c-434c-9ddc-abf3b26181aa" />
+<img width="700" height="700" alt="Image" src="https://github.com/user-attachments/assets/7d893a62-c48c-434c-9ddc-abf3b26181aa" />
 
 ###  **Role:** Electronics Specialist
 
@@ -30,7 +30,7 @@ have a big prize.**
 
 **Role:** Programmer
 
-**I started two years ago in my eleme<ntary school, at OnStage TMR, and from there I became interested in robotics, in this competition, I want to become a better and more well-rounded programmer.**
+**I started two years ago in my elementary school, at OnStage TMR, and from there I became interested in robotics, in this competition, I want to become a better and more well-rounded programmer.**
 
 **Age:** 14
 ---
