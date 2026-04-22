@@ -9,8 +9,11 @@
 ##  Team Members
 
 ### **Mateo Briones**  
+---
 
-**Role:** Electronics Specialist
+<img width="900" height="1000" alt="Image" src="https://github.com/user-attachments/assets/7d893a62-c48c-434c-9ddc-abf3b26181aa" />
+
+###  **Role:** Electronics Specialist
 
 **2 years ago in my high school, I began to be interested in my robotics and computer science classes, so that year i went to compete in the robocup 2025
 and i decided to focus on that, then i started to get interested and see it as a fun hobby, in this competition I want to win one of the first three places and
