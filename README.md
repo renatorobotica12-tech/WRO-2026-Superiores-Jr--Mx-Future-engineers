@@ -144,6 +144,7 @@ The error is calculated based on the difference between the object position and 
 - Apply control correction
 - Adjust steering angle
 - Move forward
+A unified PD controller is used regardless of the active sensing mode.
 
 ### pseudocode
 loop:
