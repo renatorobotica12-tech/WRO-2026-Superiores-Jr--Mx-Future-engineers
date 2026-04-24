@@ -26,7 +26,7 @@ have a big prize.**
 ---
 ### **Ruth García** 
 <p align="center">
-<img width="400" height="400" alt="Image" src="https://github.com/user-attachments/assets/0eeb4fe7-00a4-4f3b-9274-29eee74b13ef" />
+<img width="350" height="350" alt="Image" src="https://github.com/user-attachments/assets/0eeb4fe7-00a4-4f3b-9274-29eee74b13ef" />
 </p>
 **Role:** Builder
 
