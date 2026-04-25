@@ -1,4 +1,4 @@
-## system diagram
+## System diagram
 ```mermaid
 flowchart TD
     A[Start] --> B[Capture Frame]
