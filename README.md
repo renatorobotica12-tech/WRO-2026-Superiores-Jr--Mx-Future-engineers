@@ -86,13 +86,20 @@ Ackermann steering was selected to better replicate real-world vehicle dynamics 
 
 <div align="center">
 
-| Front | Back |
-|:--:|:--:|
-|<img src= "https://github.com/user-attachments/assets/6dc00e73-723c-4a87-8fed-caf3bb0b516d" width="300"/> | <img src="https://github.com/user-attachments/assets/db47e1fc-15cf-4bf6-9bda-90c15ac27a30" width="300"/> |
-| Bottom | Left |
-| <img src="https://github.com/user-attachments/assets/adfcbc35-594a-4e53-b164-27f303c28fb5" width="300"/> | <img src= "https://github.com/user-attachments/assets/e4b8b09b-9287-48da-9303-3b7f5d03bd47" width= 300 /> |
-| Right | Top |
-|<img src= "https://github.com/user-attachments/assets/afbd04f9-7306-40f3-8b8c-13dbfa76661c" width= 300 /> | <img src= "https://github.com/user-attachments/assets/d506e87b-5d23-4b30-8219-bd6e11727323"  width= 300 /> |
+| Top | 
+|:--:|
+| <img width="300" alt="Image" src="https://github.com/user-attachments/assets/db4220f0-02e5-4a55-ab61-ab2f27a2ebf8" /> |
+| Right |
+ | <img width="300" alt="Image" src="https://github.com/user-attachments/assets/592dc860-29e7-4466-9803-3c76527497e0" /> |
+ | Left |
+ | <img width="300" alt="Image" src="https://github.com/user-attachments/assets/8f9ba958-2dd1-4182-8742-dd3fb614702a" /> |
+| Bottom |
+| <img width="300" alt="Image" src="https://github.com/user-attachments/assets/f74e4b12-1b4c-46d5-8b1d-bdd542ea7e7e" /> |
+| Rear | 
+|<img width="300" alt="Image" src="https://github.com/user-attachments/assets/c91b58f6-3492-42d3-a011-75c5045cd772" /> |
+</p>
+
+
 ---
 ##  Components and Hardware
 | Component | Description | Image |
