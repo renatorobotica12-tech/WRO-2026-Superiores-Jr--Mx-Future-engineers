@@ -135,7 +135,7 @@ The robot uses a distributed architecture where each subsystem performs a specif
 - [💻 Software Architecture](#-software-architecture)
 - [🎯 Steering Calibration](#-automatic-steering-calibration)
 - [📡 Sensor Calibration](#-sensor-calibration)
-- [🎮 Dual PD Controller](#-dual-pd-steering-controller)
+- [🎮 Closed-Loop PID Controller](#-closed-loop-pid-controller)
 - [🔄 Finite State Machine](#-finite-state-machine)
 - [🧠 Engineering Decisions](#-engineering-decisions)
 - [📈 Current Performance](#-current-performance)
@@ -171,7 +171,7 @@ The robot uses a distributed architecture where each subsystem performs a specif
 |:---|:---|
 | Age | 14 |
 | Role | Team Captain and Programmer |
-| Main Areas | Software, Embedded Systems, Integration |
+| Main Areas | Software, Integration |
 
 
 ### Responsibilities
@@ -182,7 +182,6 @@ The robot uses a distributed architecture where each subsystem performs a specif
 - 🔧 Robot Integration
 - 🧠 System Architecture
 - 📚 Technical Documentation
-- 🔌 Embedded Programming
 
 
 ---
@@ -357,14 +356,12 @@ These photographs demonstrate:
 
 | Front View | Top View | Right Side |
 |:---:|:---:|:---:|
-|  |  |  |
-| Insert image | Insert image | Insert image |
+| <img src="https://github.com/user-attachments/assets/69e7b572-94bf-416a-b6c8-c6d912f90fd9" width="250"> | <img src="https://github.com/user-attachments/assets/4440147d-9600-491b-a967-1af42e869efa" width="250"> | <img src="https://github.com/user-attachments/assets/d07e3bec-f223-4d49-a879-2c7a64f843c3" width="250"> |
 
 
 | Left Side | Rear View | Bottom View |
 |:---:|:---:|:---:|
-|  |  |  |
-| Insert image | Insert image | Insert image |
+| <img src="https://github.com/user-attachments/assets/36231890-177c-4a6f-8faf-0d1627496dcb" width="250"> | <img src="https://github.com/user-attachments/assets/5d44d4db-c581-44e0-86bb-8d20cec6b4b8" width="250"> | <img src="https://github.com/user-attachments/assets/47117a61-1927-4884-a85a-d80c9e8139e6" width="250"> |
 
 
 </div>
@@ -372,7 +369,7 @@ These photographs demonstrate:
 
 > [!NOTE]
 >
-> A demonstration video will be added after the final validation tests are completed.
+> A demostration video will be added after the final validation tests are completed.
 
 
 ---
