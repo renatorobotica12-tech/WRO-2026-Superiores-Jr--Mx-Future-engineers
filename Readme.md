@@ -357,13 +357,13 @@ These photographs demonstrate:
 
 | Front View | Top View | Right Side |
 |:---:|:---:|:---:|
-| 📷 | 📷 | 📷 |
+|  |  |  |
 | Insert image | Insert image | Insert image |
 
 
 | Left Side | Rear View | Bottom View |
 |:---:|:---:|:---:|
-| 📷 | 📷 | 📷 |
+|  |  |  |
 | Insert image | Insert image | Insert image |
 
 
